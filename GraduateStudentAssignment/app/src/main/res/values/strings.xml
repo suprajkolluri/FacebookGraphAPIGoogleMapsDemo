@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GraduateStudentAssignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">964854050296700</string>
+    <string name="title_activity_display_fb_details">Display FB Details</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="legalnotices">Legal Notices</string>
+    <string name="addmarkers">Add Markers</string>
+</resources>

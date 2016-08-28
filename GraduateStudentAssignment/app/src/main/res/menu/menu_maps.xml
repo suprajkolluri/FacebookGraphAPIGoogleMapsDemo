@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_legalnotices"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/legalnotices"/>
+
+    <item
+        android:id="@+id/maptype"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Map Type">
+        <menu >
+            <group android:id="@+id/groupmaptype"
+                android:checkableBehavior="single">
+                <item android:id="@+id/normalMap"
+                    android:title="NORMAL" />
+                <item android:id="@+id/satelliteMap"
+                    android:title="SATELLITE" />
+                <item android:id="@+id/terrainMap"
+                    android:title="TERRAIN" />
+                <item android:id="@+id/hybridMap"
+                    android:title="HYBRID" />
+                <item android:id="@+id/noneMap"
+                    android:title="NONE" />
+            </group>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/menu_addmarkers"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/addmarkers"/>
+
+</menu>
